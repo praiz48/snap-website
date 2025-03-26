@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="/images/logo.svg" alt="Snap logo" />
+      </div>
+      <a class="menu-open hide-desktop" href="#">
+        <img src="/images/icon-menu.svg" alt="menu icon" />
+      </a>
+      <div class="side-bar">
+        <li>
+          <a href="#" class="menu-close hide-desktop">
+            <img src="/images/icon-close-menu.svg" alt="close icon" />
+          </a>
+        </li>
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="#" class="ft-open"
+                >Features
+                <img
+                  id="arrow"
+                  src="/images/icon-arrow-down.svg"
+                  alt="logo dropdown icon"
+              /></a>
+
+              <nav class="sub-nav ft">
+                <ul>
+                  <li>
+                    <img src="/images/icon-todo.svg" alt="todo icon" />
+                    TodoList
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-calendar.svg"
+                      alt="calender icon"
+                    />Calender
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-reminders.svg"
+                      alt="reminder icon"
+                    />Reminders
+                  </li>
+                  <li>
+                    <img
+                      src="/images/icon-planning.svg"
+                      alt="Planning icon"
+                    />Planning
+                  </li>
+                </ul>
+              </nav>
+            </li>
+            <li>
+              <a href="#" class="com-open">
+                company
+                <img
+                  src="/images/icon-arrow-down.svg"
+                  alt="logo dropdown icon"
+                  id="arrow-cp"
+              /></a>
+
+              <nav class="sub-nav cp">
+                <ul>
+                  <li>History</li>
+                  <li>Our team</li>
+                  <li>Blog</li>
+                </ul>
+              </nav>
+            </li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">about</a></li>
+          </ul>
+        </nav>
+
+        <nav class="desktop-right">
+          <li>
+            <a href="#"> login</a>
+          </li>
+          <li><a href="#"> register</a></li>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="back"></div>
+      <div class="hero-img-container">
+        <img
+          class="hero-img"
+          src="/images/image-hero-mobile.png"
+          alt="hero image"
+        />
+      </div>
+      <section class="hero-section">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync no matter your location. Streamline
+          processes,create team rituals and watch productivity soar
+        </p>
+
+        <a href="#" class="cta-button"> Learn more </a>
+      </section>
+    </main>
+    <footer>
+      <img src="/images/client-databiz.svg" alt="databiz" />
+      <img src="/images/client-audiophile.svg" alt="audiophilo" />
+      <img src="/images/client-meet.svg" alt="meet" />
+      <img src="/images/client-maker.svg" alt="maker" />
+    </footer>
+    <script src="Main.js"></script>
+  </body>
+</html>
